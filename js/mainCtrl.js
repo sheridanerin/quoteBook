@@ -16,7 +16,6 @@ angular.module('quoteBook').controller('mainCtrl', function($scope, mainService)
 
 	$scope.removeQuote = function(index) {
 		mainService.removeData(index);
-		mainService.getData();
 	};
 
 	$scope.sortOptions = [
